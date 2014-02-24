@@ -44,7 +44,7 @@ class IndexController extends AbstractActionController
         $em->flush();*/
         
         $produtoService = $this->getServiceLocator()->get("Application\Service\Produto");
-        $produtoService->insert(array('categoriaId' => 3));
+        $produtoService->insert(array('categoriaId' => 6));
         
         return new ViewModel(array("categorias"=>$categorias));
     }

@@ -5,8 +5,11 @@ return array(
         'DoctrineModule',
         'DoctrineORMModule',
         'DoctrineDataFixtureModule',
+        "JMSSerializerModule",
         'Application',
-        'SONUser'
+        'SONRest',
+        'SONUser',
+
     ),
 
     // These are various options for the listeners attached to the ModuleManager
